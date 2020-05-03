@@ -5,17 +5,12 @@ function charityCampaign(
   waffles,
   pancakes
 ) {
-  campaignLength = +campaignLength;
-  confectioner = +confectioner;
-  cakes = +cakes;
-  waffles = +waffles;
-  pancakes = +pancakes;
-  totalCakes = cakes * 45;
-  totalWaffles = waffles * 5.8;
-  totalPancakes = pancakes * 3.2;
+  totalCakes = +cakes * 45;
+  totalWaffles = +waffles * 5.8;
+  totalPancakes = +pancakes * 3.2;
   const totalPerDay =
-    (totalCakes + totalWaffles + totalPancakes) * confectioner;
-  const totalPerCampaign = totalPerDay * campaignLength;
+    (totalCakes + totalWaffles + totalPancakes) * +confectioner;
+  const totalPerCampaign = totalPerDay * +campaignLength;
   const finalSum = totalPerCampaign - totalPerCampaign / 8;
   console.log(finalSum);
 }
