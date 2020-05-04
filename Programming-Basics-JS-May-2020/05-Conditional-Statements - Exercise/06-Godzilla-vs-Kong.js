@@ -1,4 +1,3 @@
-/* eslint-disable */
 function godzillaVsKong(movieBudget, numExtras, extraClothingPrice) {
   movieBudget = +movieBudget;
   numExtras = +numExtras;
@@ -6,7 +5,7 @@ function godzillaVsKong(movieBudget, numExtras, extraClothingPrice) {
   let clothesPrice = numExtras * extraClothingPrice;
   const decor = movieBudget - movieBudget * 0.9;
   if (numExtras >= 150) {
-    clothesPrice = clothesPrice - (clothesPrice * 0.1);
+    clothesPrice -= clothesPrice * 0.1;
   }
   const moneyNeeded = decor + clothesPrice;
   if (movieBudget >= moneyNeeded) {
