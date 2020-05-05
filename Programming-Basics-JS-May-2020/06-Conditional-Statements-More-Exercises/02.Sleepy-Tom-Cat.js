@@ -18,9 +18,5 @@ function sleepyTomCat(days) {
   }
 }
 
-// sleepyTomCat('20');
+sleepyTomCat('20');
 sleepyTomCat('113');
-
-// 30000 minuti na godina
-// rabota - 63 na den
-// pochivka - 127 na den
