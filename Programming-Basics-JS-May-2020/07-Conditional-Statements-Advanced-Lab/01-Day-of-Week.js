@@ -1,4 +1,4 @@
-function solve(number) {
+function dayOfWeek(number) {
   number = +number;
   switch (number) {
     case 1:
@@ -28,4 +28,4 @@ function solve(number) {
   }
 }
 
-solve('4');
+dayOfWeek('4');
