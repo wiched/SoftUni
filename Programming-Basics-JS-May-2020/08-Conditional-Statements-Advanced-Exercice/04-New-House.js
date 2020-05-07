@@ -1,6 +1,6 @@
 function newHouse(type, qty, budget) {
-  qty = Number(qty);
-  budget = Number(budget);
+  qty = +qty;
+  budget = +budget;
   let price = 0;
 
   if (type === 'Roses') {
