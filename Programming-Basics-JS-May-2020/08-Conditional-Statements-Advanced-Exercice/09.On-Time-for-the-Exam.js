@@ -33,7 +33,6 @@ function onTimeForTheExam(examHour, examMinute, hour, minute) {
     if (izpitaMin === otishulMin) {
       console.log(`On time`); // ako e tochno
     } else if (diff >= 60) {
-      // moje bi diff >= 60
       // podranil s poveche ot chas
       if (minutes < 10) {
         console.log('Early');
