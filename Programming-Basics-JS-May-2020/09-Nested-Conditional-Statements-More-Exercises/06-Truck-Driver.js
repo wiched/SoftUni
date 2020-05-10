@@ -22,7 +22,6 @@ function truckDriver(season, km) {
   }
   money *= 0.9;
   money *= 4;
-  console.log(`${season}`);
   console.log(`${money.toFixed(2)}`);
 }
 
