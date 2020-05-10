@@ -6,6 +6,6 @@ function from1ToNStep3(num) {
   }
 }
 
-// from1ToNStep3('10');
-// from1ToNStep3('7');
+from1ToNStep3('10');
+from1ToNStep3('7');
 from1ToNStep3('15');
