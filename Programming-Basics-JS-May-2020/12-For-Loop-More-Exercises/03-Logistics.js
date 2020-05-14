@@ -25,5 +25,5 @@ function logistics(params) {
   console.log(`${trainPercentage.toFixed(2)}%`);
 }
 
-// logistics(['4', '1', '5', '16', '3']);
+logistics(['4', '1', '5', '16', '3']);
 logistics(['5', '2', '10', '20', '1', '7']);
