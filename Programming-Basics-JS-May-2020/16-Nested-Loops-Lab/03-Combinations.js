@@ -13,3 +13,4 @@ function combination(n) {
 }
 
 combination(['25']);
+combination(['20']);
